@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
     public GameObject pauseButton;
     public Vector3 letterSpawn = new Vector3();
     public List<GameObject> vowelPrefabs = new List<GameObject>();
-    public List<GameController> consonantPrefabs = new List<GameController>();
+    public List<GameObject> consonantPrefabs = new List<GameObject>();
     public TextMeshProUGUI word;
     public TextMeshProUGUI type;
     public TextMeshProUGUI paragraph;
@@ -39,6 +39,7 @@ public class GameController : MonoBehaviour
         if (currentWord.Length <= 12) {
 
             currentWord += character_;
+            word.SetText(currentWord);
             return true;
 
         }
@@ -81,7 +82,7 @@ public class GameController : MonoBehaviour
         paragraph.SetText(textParserInstance.GetComponent<TextParser>().parsedParagraph);
         type.SetText("");
         word.SetText("");
-
+        playing = false;
 
     }
 
@@ -119,13 +120,31 @@ public class GameController : MonoBehaviour
             Destroy(vowels[a]);
 
         }
+        vowels.Clear();
         for (int a = consonants.Count - 1; a >= 0; a--) {
 
             Destroy(consonants[a]);
 
         }
+        consonants.Clear();
         playing = true;
+        nextSpawnCheck = Time.time;
         Debug.Log("Starting Game");
+
+    }
+
+    public void removeSelf(GameObject objectToRemove_) {
+
+        if (vowels.Contains(objectToRemove_)) {
+
+            vowels.Remove(objectToRemove_);
+
+        }
+        else if (consonants.Contains(objectToRemove_)) {
+
+            consonants.Remove(objectToRemove_);
+
+        }
 
     }
 
@@ -137,13 +156,13 @@ public class GameController : MonoBehaviour
             if (vowels.Count < maxVowels) {
 
                 Debug.Log("Spawning vowel");
-                Instantiate(vowels[Random.Range(0,vowels.Count)], letterSpawn, Quaternion.identity);
+                vowels.Add(Instantiate(vowelPrefabs[Random.Range(0,vowelPrefabs.Count)], letterSpawn, Quaternion.identity));
 
             }
             else if (consonants.Count < maxConsonants) {
 
                 Debug.Log("Spawning consonant");
-                Instantiate(consonants[Random.Range(0,consonants.Count)], letterSpawn, Quaternion.identity);
+                consonants.Add(Instantiate(consonantPrefabs[Random.Range(0,consonantPrefabs.Count)], letterSpawn, Quaternion.identity));
 
             }
 

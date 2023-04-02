@@ -31,7 +31,7 @@ public class LetterController : MonoBehaviour
 
     }
 
-    void OnMouseDown() {
+    public void click() {
 
         if (gc.pressButton(character)) {
 
@@ -43,6 +43,7 @@ public class LetterController : MonoBehaviour
 
     void explode() {
 
+        gc.removeSelf(this.gameObject);
         Destroy(this.gameObject);
 
     }
