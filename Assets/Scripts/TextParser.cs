@@ -71,16 +71,6 @@ public class TextParser : MonoBehaviour
 
     }
 
-    void OnValidate() {
-
-        if (autoParse) {
-
-            parse();
-
-        }
-
-    }
-
     static int sortByIndex(textInput first_, textInput second_) {
 
         return (first_.index.CompareTo(second_.index));
