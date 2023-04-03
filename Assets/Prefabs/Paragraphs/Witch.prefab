@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1721479266775579489}
   - component: {fileID: 1721479266775579490}
   m_Layer: 0
-  m_Name: TextTemplate
+  m_Name: Witch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,19 +45,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoParse: 1
-  paragraph: I  the . It was quite  in the .
+  paragraph: 'A  witch who lives right outside of town. Everyone knows her by her 
+    hat and her long . It was told that she could cure any disease with just a wave
+    of her , but she would also curse anyone who dared get in her way or insult her
+    . She often goes to the herbalist for  seeds that she can grow for potions. If
+    you have an illness to be cured, or to  someone. Go to the witch in the woods. '
   words:
-  - wordType: Past Tense Verb
+  - wordType: '[noun]'
     index: 2
     text: 
-  - wordType: Noun
-    index: 7
-    text: house
-  - wordType: Adjective
-    index: 22
-    text: big
-  - wordType: Place
-    index: 30
-    text: town
+  - wordType: '[color]'
+    index: 68
+    text: 
+  - wordType: '[clothing item]'
+    index: 86
+    text: 
+  - wordType: '[noun]'
+    index: 156
+    text: 
+  - wordType: '[noun]'
+    index: 229
+    text: 
+  - wordType: '[plant]'
+    index: 267
+    text: 
+  - wordType: '[verb]'
+    index: 347
+    text: 
   parsedParagraph: <color=white>I <color=red>[Past Tense Verb]</color> the <color=blue>house</color>.
     It was quite <color=blue>big</color> in the <color=blue>town</color>.

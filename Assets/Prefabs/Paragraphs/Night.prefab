@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 1721479266775579489}
   - component: {fileID: 1721479266775579490}
   m_Layer: 0
-  m_Name: TextTemplate
+  m_Name: Night
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1721479266775579489
 Transform:
   m_ObjectHideFlags: 0
@@ -45,19 +45,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoParse: 1
-  paragraph: I  the . It was quite  in the .
+  paragraph: 'It was a  and stormy night. All the lights in the town were off and
+    there was some  in the air. The people were asleep, unaware of the horrors that 
+    in the dead of night. Hiding within the city are monsters who feast on . They
+    only come out at night because they fear the . So watch out the next time you
+    go out at night, for the  might be there. '
   words:
-  - wordType: Past Tense Verb
-    index: 2
+  - wordType: '[adjective]'
+    index: 9
     text: 
-  - wordType: Noun
-    index: 7
-    text: house
-  - wordType: Adjective
-    index: 22
-    text: big
-  - wordType: Place
-    index: 30
-    text: town
-  parsedParagraph: <color=white>I <color=red>[Past Tense Verb]</color> the <color=blue>house</color>.
-    It was quite <color=blue>big</color> in the <color=blue>town</color>.
+  - wordType: '[noun]'
+    index: 83
+    text: 
+  - wordType: '[verb]'
+    index: 148
+    text: 
+  - wordType: '[plural noun]'
+    index: 220
+    text: 
+  - wordType: '[noun]'
+    index: 272
+    text: 
+  - wordType: '[plural noun]'
+    index: 330
+    text: 
+  parsedParagraph: '<color=white>It was a <color=red>[adjective]</color> and stormy
+    night. All the lights in the town were off and there was some [noun] in the air.
+    The people were asleep, unaware of the horrors that [verb] in the dead of night.
+    Hiding within the city are monsters who feast on [plural noun]. They [verb] behind
+    buildings and in shadows and wait for their prey before striking. They only come
+    out at night because they fear the [noun]. So watch out the next time you go
+    out at night, for the [plural creature] might be there.
+
+'
