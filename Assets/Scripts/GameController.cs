@@ -17,6 +17,8 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI word;
     public TextMeshProUGUI type;
     public TextMeshProUGUI paragraph;
+    public AudioSource click;
+    public AudioSource tap;
 
     private GameObject textParserInstance;
     private string currentWord = "";
@@ -27,7 +29,15 @@ public class GameController : MonoBehaviour
     private List<GameObject> consonants = new List<GameObject>(); private float maxConsonants = 16;
     private float nextSpawnCheck = 0f; private float spawnInterval = 0.75f;
 
-    
+    void Start() {
+
+        paragraph.SetText("");
+        word.SetText("");
+        type.SetText("");
+        Camera.main.GetComponent<AudioSource>().Play();
+
+    }
+
     void OnDrawGizmos() {
 
         Gizmos.DrawSphere(letterSpawn, 1f);
@@ -40,6 +50,7 @@ public class GameController : MonoBehaviour
 
             currentWord += character_;
             word.SetText(currentWord);
+            tap.Play();
             return true;
 
         }
@@ -54,6 +65,7 @@ public class GameController : MonoBehaviour
 
     public void nextWord() {
 
+        click.Play();
         if (currentWord != "") {
 
             textParserInstance.GetComponent<TextParser>().setInput(currentWord);
@@ -104,6 +116,7 @@ public class GameController : MonoBehaviour
 
     public void startGame() {
 
+        click.Play();
         if (textParserInstance != null) {
 
             Destroy(textParserInstance);

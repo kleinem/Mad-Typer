@@ -96,13 +96,11 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 1.1308277, y: 1.2096708}
       - {x: 0.509947, y: 1.2254032}
-      - {x: -0.07935475, y: 0.24426544}
+      - {x: -0.091477975, y: 0.8079955}
       - {x: -0.6471547, y: 1.2316676}
       - {x: -1.2987031, y: 1.1884899}
-      - {x: -0.39562768, y: -0.23359527}
       - {x: -0.39517522, y: -1.2993084}
       - {x: 0.22851217, y: -1.3000958}
-      - {x: 0.24080849, y: -0.23772514}
 --- !u!1001 &1928543690763222118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -242,5 +240,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4061832177321020729, guid: f1ddf5e5c683705458b52373180cdda1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d98140a25954e994babc43cb7c458f75, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1ddf5e5c683705458b52373180cdda1, type: 3}

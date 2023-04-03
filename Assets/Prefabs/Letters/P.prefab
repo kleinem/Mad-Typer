@@ -94,8 +94,7 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.47395217, y: -0.4842025}
-      - {x: 0.27449873, y: -0.49128318}
+    - - {x: 0.27449873, y: -0.49128318}
       - {x: 0.884467, y: 0.017003298}
       - {x: 0.8619035, y: 0.74577695}
       - {x: 0.375485, y: 1.2522954}
@@ -109,6 +108,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3886929565835267915}
     m_Modifications:
+    - target: {fileID: 513532710359129606, guid: 157c1cd31d668ad4aab2e6ec34383a31, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d98140a25954e994babc43cb7c458f75, type: 2}
     - target: {fileID: 1687516821892113769, guid: 157c1cd31d668ad4aab2e6ec34383a31, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -116,6 +119,10 @@ PrefabInstance:
     - target: {fileID: 1687516821892113769, guid: 157c1cd31d668ad4aab2e6ec34383a31, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687516821892113769, guid: 157c1cd31d668ad4aab2e6ec34383a31, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.70987
       objectReference: {fileID: 0}
     - target: {fileID: 1687516821892113769, guid: 157c1cd31d668ad4aab2e6ec34383a31, type: 3}
       propertyPath: m_LocalScale.z

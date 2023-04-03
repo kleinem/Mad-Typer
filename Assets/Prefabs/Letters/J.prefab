@@ -96,7 +96,6 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 0.6689747, y: 1.2705264}
       - {x: 0.16034582, y: 1.285911}
-      - {x: -0.008385301, y: -0.78688145}
       - {x: -0.7693047, y: -0.5110549}
       - {x: -0.99662334, y: -0.6400439}
       - {x: -0.92630017, y: -1.0908924}
@@ -241,5 +240,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Letter J
       objectReference: {fileID: 0}
+    - target: {fileID: 6081774773228226196, guid: 83d64460a041ef44f825c85695fd3941, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d98140a25954e994babc43cb7c458f75, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83d64460a041ef44f825c85695fd3941, type: 3}

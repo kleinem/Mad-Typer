@@ -95,7 +95,6 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0.9244524, y: 0.19483048}
-      - {x: 0.26105252, y: 0.2818732}
       - {x: 0.8374052, y: 0.870837}
       - {x: 0.62659514, y: 1.2365632}
       - {x: -0.49851787, y: 1.2388493}
@@ -110,6 +109,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3886929565835267915}
     m_Modifications:
+    - target: {fileID: 872648379638891519, guid: 596ce59193558e04085301efd443909c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d98140a25954e994babc43cb7c458f75, type: 2}
     - target: {fileID: 1665409800774476330, guid: 596ce59193558e04085301efd443909c, type: 3}
       propertyPath: m_Name
       value: Letter G

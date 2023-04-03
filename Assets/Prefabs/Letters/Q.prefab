@@ -101,7 +101,6 @@ PolygonCollider2D:
       - {x: -1.1644094, y: -0.6642507}
       - {x: -0.43551385, y: -1.2522469}
       - {x: 1.0890689, y: -1.2463111}
-      - {x: 1.0408573, y: -0.95709664}
 --- !u!1001 &1928543690763222118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -195,7 +194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2529517087347750603, guid: 37b4fb7234bdb60439a149c424801620, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.91161
+      value: 2.6970115
       objectReference: {fileID: 0}
     - target: {fileID: 2529517087347750603, guid: 37b4fb7234bdb60439a149c424801620, type: 3}
       propertyPath: m_LocalScale.z
@@ -245,5 +244,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Letter Q
       objectReference: {fileID: 0}
+    - target: {fileID: 3697889322943073700, guid: 37b4fb7234bdb60439a149c424801620, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d98140a25954e994babc43cb7c458f75, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37b4fb7234bdb60439a149c424801620, type: 3}

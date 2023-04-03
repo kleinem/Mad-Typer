@@ -94,16 +94,16 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.23416013, y: 0.14741121}
+    - - {x: 0.7009043, y: 0.06861024}
       - {x: 1.0703197, y: 1.216394}
       - {x: 0.36876193, y: 1.2455723}
-      - {x: -0.08687183, y: 0.49304593}
+      - {x: -0.074748605, y: 0.899174}
       - {x: -0.51067007, y: 1.2492777}
       - {x: -1.2247488, y: 1.2355515}
-      - {x: -0.39638627, y: 0.14104664}
+      - {x: -0.778268, y: 0.09861534}
       - {x: -1.195224, y: -1.1782926}
       - {x: -0.56479234, y: -1.1859084}
-      - {x: -0.080750406, y: -0.43281603}
+      - {x: -0.06862718, y: -0.84500575}
       - {x: 0.42705196, y: -1.2048092}
       - {x: 1.0274111, y: -1.1924051}
 --- !u!1001 &1928543690763222118
@@ -245,5 +245,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4526151032254203380, guid: b91aee8159ca4ef4395add1f4492f66f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d98140a25954e994babc43cb7c458f75, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b91aee8159ca4ef4395add1f4492f66f, type: 3}

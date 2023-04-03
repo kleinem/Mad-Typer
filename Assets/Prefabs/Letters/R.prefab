@@ -96,13 +96,12 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 0.50089717, y: -1.2976974}
       - {x: 1.0947168, y: -1.2778858}
-      - {x: 0.6177012, y: -0.5571654}
-      - {x: 0.9382517, y: 0.40021995}
-      - {x: 0.62659514, y: 1.3306866}
+      - {x: 0.8958204, y: 0.8669641}
+      - {x: 0.5296093, y: 1.3913027}
       - {x: -0.99602723, y: 1.3934805}
       - {x: -1.0405929, y: -1.2993085}
       - {x: -0.4034592, y: -1.2933728}
-      - {x: -0.19619298, y: -0.41252565}
+      - {x: -0.06889911, y: -1.0126255}
 --- !u!1001 &1928543690763222118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -195,6 +194,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7171759459713483393, guid: a82ecc62ec1b7d34789ed8409df9bd3a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6272441
+      objectReference: {fileID: 0}
+    - target: {fileID: 7171759459713483393, guid: a82ecc62ec1b7d34789ed8409df9bd3a, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
@@ -242,5 +245,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Letter R
       objectReference: {fileID: 0}
+    - target: {fileID: 8344072691935541742, guid: a82ecc62ec1b7d34789ed8409df9bd3a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d98140a25954e994babc43cb7c458f75, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a82ecc62ec1b7d34789ed8409df9bd3a, type: 3}

@@ -96,13 +96,13 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 0.7639979, y: -0.8538019}
       - {x: 0.7294826, y: -0.08753966}
-      - {x: -0.49193466, y: 0.5037354}
+      - {x: 0.39912254, y: 0.4067496}
       - {x: 0.6357122, y: 0.6422515}
       - {x: 0.7274415, y: 0.99453163}
       - {x: -0.26320946, y: 1.2926341}
       - {x: -0.9759942, y: 0.81871927}
       - {x: -0.9811016, y: 0.18622509}
-      - {x: -0.20603669, y: -0.32195118}
+      - {x: -0.7091506, y: -0.34013602}
       - {x: -0.9800849, y: -0.7614605}
       - {x: -0.598429, y: -1.172357}
       - {x: 0.30131626, y: -1.2260209}
@@ -189,6 +189,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3886929565835267915}
     m_Modifications:
+    - target: {fileID: 2419225865793765895, guid: 2eacd306c10984c4fb55dfea7a82261f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d98140a25954e994babc43cb7c458f75, type: 2}
     - target: {fileID: 3592181212536174952, guid: 2eacd306c10984c4fb55dfea7a82261f, type: 3}
       propertyPath: m_RootOrder
       value: 0

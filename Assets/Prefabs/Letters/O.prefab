@@ -185,6 +185,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3886929565835267915}
     m_Modifications:
+    - target: {fileID: 790386115652927395, guid: e7a948dbc6b5b22409381050944c7b6f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d98140a25954e994babc43cb7c458f75, type: 2}
     - target: {fileID: 1295065870641077878, guid: e7a948dbc6b5b22409381050944c7b6f, type: 3}
       propertyPath: m_Name
       value: Letter O

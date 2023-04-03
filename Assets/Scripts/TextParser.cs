@@ -12,8 +12,8 @@ public class TextParser : MonoBehaviour
     public string parsedParagraph = "";
     int currentInput = 0;
 
-    string defaultColor = "white";
-    string filledColor = "blue";
+    string defaultColor = "black";
+    string filledColor = "green";
     string emptyColor = "red";
 
     public void parse() {

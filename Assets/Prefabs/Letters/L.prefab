@@ -94,7 +94,7 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.45457393, y: -0.63226634}
+    - - {x: 0.078100294, y: -0.008409083}
       - {x: -0.4514563, y: 1.2590185}
       - {x: -1.0768408, y: 1.2557209}
       - {x: -1.0742083, y: -1.1648464}
@@ -107,6 +107,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3886929565835267915}
     m_Modifications:
+    - target: {fileID: 4799378531225825192, guid: 0bcb4c211ffb2b2468d06e1e1fb74c07, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d98140a25954e994babc43cb7c458f75, type: 2}
     - target: {fileID: 5967829725631354055, guid: 0bcb4c211ffb2b2468d06e1e1fb74c07, type: 3}
       propertyPath: m_RootOrder
       value: 0
