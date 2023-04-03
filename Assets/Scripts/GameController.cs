@@ -19,6 +19,7 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI paragraph;
     public AudioSource click;
     public AudioSource tap;
+    public GameObject popPrefab;
 
     private GameObject textParserInstance;
     private string currentWord = "";
@@ -130,13 +131,13 @@ public class GameController : MonoBehaviour
         type.SetText(currentWordType);
         for (int a = vowels.Count - 1; a >= 0; a--) {
 
-            Destroy(vowels[a]);
+            vowels[a].GetComponent<LetterController>().explode();
 
         }
         vowels.Clear();
         for (int a = consonants.Count - 1; a >= 0; a--) {
 
-            Destroy(consonants[a]);
+            consonants[a].GetComponent<LetterController>().explode();
 
         }
         consonants.Clear();

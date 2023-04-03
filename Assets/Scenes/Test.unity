@@ -2854,6 +2854,7 @@ MonoBehaviour:
   paragraph: {fileID: 1188791347}
   click: {fileID: 1543535863}
   tap: {fileID: 1610174842}
+  popPrefab: {fileID: 8748345231729108920, guid: 3d5bd8de439f51d488a8e78c902b774e, type: 3}
 --- !u!1 &2046006080
 GameObject:
   m_ObjectHideFlags: 0
