@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1721479266775579489}
   - component: {fileID: 1721479266775579490}
   m_Layer: 0
-  m_Name: Dear
+  m_Name: Crazy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,31 +45,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoParse: 1
-  paragraph: Dear ,  It is a very  day here in town. All the locals are  around,
-    ensuring they do their chores promptly. The lovely Miss. Dores cooked  and handed
-    it out to everyone as a special treat. It was a  occasion. I hope that she does
-    it again. I must go back to work now. Have a wonderful . Sincerely, .
+  paragraph: "Nobody believes me, but I will make sure the world knows the truth!
+    You see, the government is being controlled by  aliens! They are  under all of
+    our noses and we don\u2019t even know it! It\u2019s because they use these  waves
+    that get into our  and convinces. You must spread the word, and make sure they
+    are human. It can mean the demise of all  and humans! "
   words:
-  - wordType: '[Person]'
-    index: 5
+  - wordType: '[noun]'
+    index: 115
     text: 
-  - wordType: '[adjective]'
-    index: 21
+  - wordType: '[verb ending with -ing]'
+    index: 133
     text: 
-  - wordType: '[verb ending in -ing]'
-    index: 59
+  - wordType: '[color]'
+    index: 212
     text: 
-  - wordType: '[food]'
-    index: 138
+  - wordType: '[plural body part]'
+    index: 237
     text: 
-  - wordType: '[adjective ending in -ly]'
-    index: 198
-    text: 
-  - wordType: '[Time of day]'
-    index: 285
-    text: 
-  - wordType: '[Name]'
-    index: 298
+  - wordType: '[plural noun]'
+    index: 339
     text: 
   parsedParagraph: <color=white>I <color=red>[Past Tense Verb]</color> the <color=blue>house</color>.
     It was quite <color=blue>big</color> in the <color=blue>town</color>.

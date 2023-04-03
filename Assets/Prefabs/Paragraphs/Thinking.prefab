@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1721479266775579489}
   - component: {fileID: 1721479266775579490}
   m_Layer: 0
-  m_Name: Dear
+  m_Name: Thinking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,31 +45,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoParse: 1
-  paragraph: Dear ,  It is a very  day here in town. All the locals are  around,
-    ensuring they do their chores promptly. The lovely Miss. Dores cooked  and handed
-    it out to everyone as a special treat. It was a  occasion. I hope that she does
-    it again. I must go back to work now. Have a wonderful . Sincerely, .
+  paragraph: "It\u2019s hard to think while . I do not know why, for I usually excel
+    at doing so, but for some reason, I can not. It\u2019s like there\u2019s an 
+    in my brain, making it impossible to think. Usually, I walk around the  and clear
+    my head, but for some  reason, it does not seem to be working this time. Maybe
+    I am  and it\u2019s getting in the way of my thoughts. I need to fix this."
   words:
-  - wordType: '[Person]'
-    index: 5
+  - wordType: '[verb ending with -ing]'
+    index: 25
+    text: 
+  - wordType: '[noun]'
+    index: 132
+    text: 
+  - wordType: '[location]'
+    index: 204
     text: 
   - wordType: '[adjective]'
-    index: 21
+    index: 237
     text: 
-  - wordType: '[verb ending in -ing]'
-    index: 59
-    text: 
-  - wordType: '[food]'
-    index: 138
-    text: 
-  - wordType: '[adjective ending in -ly]'
-    index: 198
-    text: 
-  - wordType: '[Time of day]'
-    index: 285
-    text: 
-  - wordType: '[Name]'
-    index: 298
+  - wordType: '[emotion]'
+    index: 299
     text: 
   parsedParagraph: <color=white>I <color=red>[Past Tense Verb]</color> the <color=blue>house</color>.
     It was quite <color=blue>big</color> in the <color=blue>town</color>.
